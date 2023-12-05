@@ -1,2 +1,2 @@
-# PickRestaurant
-The repository is 'PickRestaurant' iOS app.
+# ToGoList
+The repository is 'ToGoList' iOS app.

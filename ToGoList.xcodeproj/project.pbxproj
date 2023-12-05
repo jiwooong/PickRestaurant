@@ -7,27 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CD0BB3F2983BDEA00784099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0BB3E2983BDEA00784099 /* AppDelegate.swift */; };
-		2CD0BB412983BDEA00784099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0BB402983BDEA00784099 /* SceneDelegate.swift */; };
-		2CD0BB432983BDEA00784099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0BB422983BDEA00784099 /* ViewController.swift */; };
-		2CD0BB462983BDEA00784099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD0BB442983BDEA00784099 /* Main.storyboard */; };
-		2CD0BB482983BDEA00784099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD0BB472983BDEA00784099 /* Assets.xcassets */; };
-		2CD0BB4B2983BDEA00784099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD0BB492983BDEA00784099 /* LaunchScreen.storyboard */; };
+		2C71BD1F2B1F69AC00C6CC5C /* ToGoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C71BD1E2B1F69AC00C6CC5C /* ToGoListApp.swift */; };
+		2C71BD212B1F69AC00C6CC5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C71BD202B1F69AC00C6CC5C /* ContentView.swift */; };
+		2C71BD232B1F69AD00C6CC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C71BD222B1F69AD00C6CC5C /* Assets.xcassets */; };
+		2C71BD262B1F69AD00C6CC5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C71BD252B1F69AD00C6CC5C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2CD0BB3B2983BDEA00784099 /* PickRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CD0BB3E2983BDEA00784099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CD0BB402983BDEA00784099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2CD0BB422983BDEA00784099 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2CD0BB452983BDEA00784099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2CD0BB472983BDEA00784099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2CD0BB4A2983BDEA00784099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2CD0BB4C2983BDEA00784099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C71BD1B2B1F69AC00C6CC5C /* ToGoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToGoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C71BD1E2B1F69AC00C6CC5C /* ToGoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToGoListApp.swift; sourceTree = "<group>"; };
+		2C71BD202B1F69AC00C6CC5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C71BD222B1F69AD00C6CC5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C71BD252B1F69AD00C6CC5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2CD0BB382983BDE900784099 /* Frameworks */ = {
+		2C71BD182B1F69AC00C6CC5C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CD0BB322983BDE900784099 = {
+		2C71BD122B1F69AC00C6CC5C = {
 			isa = PBXGroup;
 			children = (
-				2CD0BB3D2983BDEA00784099 /* PickRestaurant */,
-				2CD0BB3C2983BDEA00784099 /* Products */,
+				2C71BD1D2B1F69AC00C6CC5C /* ToGoList */,
+				2C71BD1C2B1F69AC00C6CC5C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2CD0BB3C2983BDEA00784099 /* Products */ = {
+		2C71BD1C2B1F69AC00C6CC5C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CD0BB3B2983BDEA00784099 /* PickRestaurant.app */,
+				2C71BD1B2B1F69AC00C6CC5C /* ToGoList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CD0BB3D2983BDEA00784099 /* PickRestaurant */ = {
+		2C71BD1D2B1F69AC00C6CC5C /* ToGoList */ = {
 			isa = PBXGroup;
 			children = (
-				2CD0BB3E2983BDEA00784099 /* AppDelegate.swift */,
-				2CD0BB402983BDEA00784099 /* SceneDelegate.swift */,
-				2CD0BB422983BDEA00784099 /* ViewController.swift */,
-				2CD0BB442983BDEA00784099 /* Main.storyboard */,
-				2CD0BB472983BDEA00784099 /* Assets.xcassets */,
-				2CD0BB492983BDEA00784099 /* LaunchScreen.storyboard */,
-				2CD0BB4C2983BDEA00784099 /* Info.plist */,
+				2C71BD1E2B1F69AC00C6CC5C /* ToGoListApp.swift */,
+				2C71BD202B1F69AC00C6CC5C /* ContentView.swift */,
+				2C71BD222B1F69AD00C6CC5C /* Assets.xcassets */,
+				2C71BD242B1F69AD00C6CC5C /* Preview Content */,
 			);
-			path = PickRestaurant;
+			path = ToGoList;
+			sourceTree = "<group>";
+		};
+		2C71BD242B1F69AD00C6CC5C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C71BD252B1F69AD00C6CC5C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CD0BB3A2983BDE900784099 /* PickRestaurant */ = {
+		2C71BD1A2B1F69AC00C6CC5C /* ToGoList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CD0BB4F2983BDEA00784099 /* Build configuration list for PBXNativeTarget "PickRestaurant" */;
+			buildConfigurationList = 2C71BD292B1F69AD00C6CC5C /* Build configuration list for PBXNativeTarget "ToGoList" */;
 			buildPhases = (
-				2CD0BB372983BDE900784099 /* Sources */,
-				2CD0BB382983BDE900784099 /* Frameworks */,
-				2CD0BB392983BDE900784099 /* Resources */,
+				2C71BD172B1F69AC00C6CC5C /* Sources */,
+				2C71BD182B1F69AC00C6CC5C /* Frameworks */,
+				2C71BD192B1F69AC00C6CC5C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PickRestaurant;
-			productName = PickRestaurant;
-			productReference = 2CD0BB3B2983BDEA00784099 /* PickRestaurant.app */;
+			name = ToGoList;
+			productName = ToGoList;
+			productReference = 2C71BD1B2B1F69AC00C6CC5C /* ToGoList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2CD0BB332983BDE900784099 /* Project object */ = {
+		2C71BD132B1F69AC00C6CC5C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					2CD0BB3A2983BDE900784099 = {
-						CreatedOnToolsVersion = 14.2;
+					2C71BD1A2B1F69AC00C6CC5C = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 2CD0BB362983BDE900784099 /* Build configuration list for PBXProject "PickRestaurant" */;
+			buildConfigurationList = 2C71BD162B1F69AC00C6CC5C /* Build configuration list for PBXProject "ToGoList" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,66 +110,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 2CD0BB322983BDE900784099;
-			productRefGroup = 2CD0BB3C2983BDEA00784099 /* Products */;
+			mainGroup = 2C71BD122B1F69AC00C6CC5C;
+			productRefGroup = 2C71BD1C2B1F69AC00C6CC5C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CD0BB3A2983BDE900784099 /* PickRestaurant */,
+				2C71BD1A2B1F69AC00C6CC5C /* ToGoList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2CD0BB392983BDE900784099 /* Resources */ = {
+		2C71BD192B1F69AC00C6CC5C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD0BB4B2983BDEA00784099 /* LaunchScreen.storyboard in Resources */,
-				2CD0BB482983BDEA00784099 /* Assets.xcassets in Resources */,
-				2CD0BB462983BDEA00784099 /* Main.storyboard in Resources */,
+				2C71BD262B1F69AD00C6CC5C /* Preview Assets.xcassets in Resources */,
+				2C71BD232B1F69AD00C6CC5C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CD0BB372983BDE900784099 /* Sources */ = {
+		2C71BD172B1F69AC00C6CC5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD0BB432983BDEA00784099 /* ViewController.swift in Sources */,
-				2CD0BB3F2983BDEA00784099 /* AppDelegate.swift in Sources */,
-				2CD0BB412983BDEA00784099 /* SceneDelegate.swift in Sources */,
+				2C71BD212B1F69AC00C6CC5C /* ContentView.swift in Sources */,
+				2C71BD1F2B1F69AC00C6CC5C /* ToGoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		2CD0BB442983BDEA00784099 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CD0BB452983BDEA00784099 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2CD0BB492983BDEA00784099 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CD0BB4A2983BDEA00784099 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		2CD0BB4D2983BDEA00784099 /* Debug */ = {
+		2C71BD272B1F69AD00C6CC5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -202,7 +182,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -216,20 +197,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		2CD0BB4E2983BDEA00784099 /* Release */ = {
+		2C71BD282B1F69AD00C6CC5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -262,7 +245,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -270,102 +254,96 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		2CD0BB502983BDEA00784099 /* Debug */ = {
+		2C71BD2A2B1F69AD00C6CC5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToGoList/Preview Content\"";
 				DEVELOPMENT_TEAM = 3SS2Y8YJ8M;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PickRestaurant/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiwoong.PickRestaurant;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiwoong.ToGoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2CD0BB512983BDEA00784099 /* Release */ = {
+		2C71BD2B2B1F69AD00C6CC5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToGoList/Preview Content\"";
 				DEVELOPMENT_TEAM = 3SS2Y8YJ8M;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PickRestaurant/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiwoong.PickRestaurant;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiwoong.ToGoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CD0BB362983BDE900784099 /* Build configuration list for PBXProject "PickRestaurant" */ = {
+		2C71BD162B1F69AC00C6CC5C /* Build configuration list for PBXProject "ToGoList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CD0BB4D2983BDEA00784099 /* Debug */,
-				2CD0BB4E2983BDEA00784099 /* Release */,
+				2C71BD272B1F69AD00C6CC5C /* Debug */,
+				2C71BD282B1F69AD00C6CC5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CD0BB4F2983BDEA00784099 /* Build configuration list for PBXNativeTarget "PickRestaurant" */ = {
+		2C71BD292B1F69AD00C6CC5C /* Build configuration list for PBXNativeTarget "ToGoList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CD0BB502983BDEA00784099 /* Debug */,
-				2CD0BB512983BDEA00784099 /* Release */,
+				2C71BD2A2B1F69AD00C6CC5C /* Debug */,
+				2C71BD2B2B1F69AD00C6CC5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2CD0BB332983BDE900784099 /* Project object */;
+	rootObject = 2C71BD132B1F69AC00C6CC5C /* Project object */;
 }
